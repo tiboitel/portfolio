@@ -1,0 +1,18 @@
+// Import global styles or libraries here
+// For example: @import 'normalize';
+
+// Import your partials
+@import 'partials/home';
+
+// Define any global styles or variables here
+$body-background-color: #f4f4f4;
+
+// Use your partial styles
+body {
+  background-color: $body-background-color;
+}
+
+// Include styles for other sections as needed
+// @import 'scss/about';
+// @import 'scss/projects';
+// @import 'scss/contact';

@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio powered by SCSS styling and TypeScript functionality through dynamic UI and functional showcases. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiboitel/portfolio.git"
+  },
+  "author": "tiboitel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiboitel/portfolio/issues"
+  },
+  "homepage": "https://github.com/tiboitel/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^2.14.1",
+    "sass": "^1.66.1"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0",
+    "typescript": "^5.1.6"
+  }
+}
