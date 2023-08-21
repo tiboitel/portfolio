@@ -1,1 +1,1 @@
-console.log("Hello world1");
+const title = "";

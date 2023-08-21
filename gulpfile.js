@@ -34,8 +34,8 @@ gulp.task('imagemin', () => {
 
 // Watch for changes
 gulp.task('watch', () => {
-    gulp.watch('scss/**/*.scss', gulp.series('sass'));
-    gulp.watch('ts/**/*.ts', gulp.series('typescript'));
+    gulp.watch('src/scss/**/*.scss', gulp.series('sass'));
+    gulp.watch('src/ts/**/*.ts', gulp.series('typescript'));
     gulp.watch('images/*', gulp.series('imagemin'));
 });
 

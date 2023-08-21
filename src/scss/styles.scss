@@ -1,17 +1,34 @@
 // Import global styles or libraries here
 // For example: @import 'normalize';
 
-// Import your partials
-@import 'partials/home';
-
 // Define any global styles or variables here
-$body-background-color: #f4f4f4;
+$grid-columns: 12;
+$gutter: 16px;
 
-// Use your partial styles
-body {
-  background-color: $body-background-color;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: - calc($gutter / 2);
+
+  .col {
+    padding: calc($gutter / 2);
+    box-sizing: border-box;
+
+    &-offset {
+      margin-left: calc($gutter / 2);
+    }
+  }
+
+  @for $i from 1 through $grid-columns {
+    .col-#{$i} {
+      flex: 0 0 percentage(calc($i / $grid-columns));
+      max-width: percentage(calc($i / $grid-columns));
+    }
+  }
 }
 
+// Import your partials
+@import 'partials/home';
 // Include styles for other sections as needed
 // @import 'scss/about';
 // @import 'scss/projects';
