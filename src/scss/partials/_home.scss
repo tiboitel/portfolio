@@ -1,13 +1,8 @@
-$body-background-color: #f4f4f4;
-
-body {
-    background-color: $body-background-color;
-}
-
 .top-nav {
     overflow: hidden;
     display: flex;
-
+    margin: 5px;
+  
     ul {
         width: 99%;
         padding-right: 12em;
@@ -23,40 +18,28 @@ body {
 
     a {
       color:#1155cc;
+      font-weight: bold;
+      font-size: 1.2em;
     }
 
     a:hover {
       color:#007bff;
     }
 }
+  
+footer {
+  overflow: hiden;
+  display:flex;
+  margin: 5px;
 
-.home-section {
-    padding: 60px;
-    text-align: center;
-  
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
-  
-    p {
-      font-size: 1.2rem;
-      color: #333;
-    }
-  
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      text-transform: uppercase;
-      border: none;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-  
-      &:hover {
-        background-color: #0056b3;
-      }
-    }
+  ul {
+    width: 100%;
+    text-align: center;  
+    margin: 0px;
+    padding:0px;
   }
-  
+
+  li {
+    display: inline;
+  }
+}
