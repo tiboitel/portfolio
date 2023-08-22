@@ -5,7 +5,6 @@ body {
 }
 
 .top-nav {
-    background-color: #ffff;
     overflow: hidden;
     display: flex;
 
@@ -23,11 +22,11 @@ body {
     }
 
     a {
-
+      color:#1155cc;
     }
 
     a:hover {
-
+      color:#007bff;
     }
 }
 

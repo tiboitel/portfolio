@@ -1,34 +1,14 @@
 // Import global styles or libraries here
 @use 'vendor/normalize' as *;
+@use 'vendor/flexbox' as *;
 @use 'partials/home';
 
 // Include libraries here
 @include normalize;
 
 // Define any global styles or variables here
-$grid-columns: 12;
-$gutter: 16px;
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: - calc($gutter / 2);
-
-  .col {
-    padding: calc($gutter / 2);
-    box-sizing: border-box;
-
-    &-offset {
-      margin-left: calc($gutter / 2);
-    }
-  }
-
-  @for $i from 1 through $grid-columns {
-    .col-#{$i} {
-      flex: 0 0 percentage(calc($i / $grid-columns));
-      max-width: percentage(calc($i / $grid-columns));
-    }
-  }
+body {
+  font-family: 'Merriweather', Arial, Helvetica, sans-serif;
 }
 
 // Include styles for other sections as needed
