@@ -1,10 +1,13 @@
-const gulp = require('gulp');
-const sass = require('gulp-sass')(require('sass'));
-const autoprefixer = require('gulp-autoprefixer');
-const cleanCSS = require('gulp-clean-css');
-const ts = require('gulp-typescript');
-const concat = require('gulp-concat');
-const imagemin = require('gulp-imagemin');
+import gulp from 'gulp';
+import gsass from 'gulp-sass'
+import lsass from 'sass'
+import autoprefixer from 'gulp-autoprefixer'
+import cleanCSS from 'gulp-clean-css'
+import ts from 'gulp-typescript'
+import concat from 'gulp-concat'
+import imagemin from 'gulp-imagemin'
+
+const sass = gsass(lsass);
 
 // Compile SCSS to CSS
 gulp.task('sass', () => {

@@ -4,6 +4,33 @@ body {
     background-color: $body-background-color;
 }
 
+.top-nav {
+    background-color: #ffff;
+    overflow: hidden;
+    display: flex;
+
+    ul {
+        width: 99%;
+        padding-right: 12em;
+        text-align: right;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;   
+    }
+ 
+    li {
+        display: inline;
+    }
+
+    a {
+
+    }
+
+    a:hover {
+
+    }
+}
+
 .home-section {
     padding: 60px;
     text-align: center;
