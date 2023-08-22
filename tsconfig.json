@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
-      "target": "ES6",                    /* Specify ECMAScript target version */
-      "module": "ESNext",                 /* Specify module code generation */
+      "target": "ES2021",                    /* Specify ECMAScript target version */
+      "module": "node16",                 /* Specify module code generation */
+      "moduleResolution": "node16",
+      "moduleDetection": "force",
+      "allowSyntheticDefaultImports": true, // To provide backwards compatibility, Node.js allows you to import most CommonJS packages with a default import. This flag tells TypeScript that it's okay to use import on CommonJS modules.
+      "resolveJsonModule": false,         // ESM doesn't yet support JSON modules.
       "outDir": "./dist/js",              /* Redirect output structure to the directory */
       "rootDir": "./src/ts",             /* Specify the root directory of input files */
       "strict": true,                    /* Enable all strict type-checking options */

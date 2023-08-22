@@ -1,5 +1,9 @@
 // Import global styles or libraries here
-// For example: @import 'normalize';
+@use 'vendor/normalize' as *;
+@use 'partials/home';
+
+// Include libraries here
+@include normalize;
 
 // Define any global styles or variables here
 $grid-columns: 12;
@@ -26,10 +30,6 @@ $gutter: 16px;
     }
   }
 }
-
-// Import your partials
-// @import "normalize/import-now";
-@import 'partials/home';
 
 // Include styles for other sections as needed
 // @import 'scss/about';
