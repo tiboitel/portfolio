@@ -1,34 +1,45 @@
 .top-nav {
     overflow: hidden;
-    display: flex;
     margin: 5px;
-  
-    ul {
-        width: 99%;
-        padding-right: 12em;
-        text-align: right;
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;   
-    }
- 
-    li {
-        display: inline;
-    }
+    margin-top: 3rem;
 
-    a {
-      color:#1155cc;
-      font-weight: bold;
-      font-size: 1.2em;
-    }
+  a {
+    font-size: 1.2em;
+  }
 
-    a:hover {
-      color:#007bff;
-    }
+  ul {
+    margin-top: 6.3rem;
+    margin-right: 6.3rem; 
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+
+  }
+
+  li {
+    padding-right: 1rem; 
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 2.8em;
+    margin-bottom: 0.3rem;
+  }
+
+  h3 {
+    margin-top: 5px;
+    font-size: 2em;
+  }
 }
-  
+ 
+#about { 
+
+}
+
 footer {
-  overflow: hiden;
+  overflow: hidden;
   display:flex;
   margin: 5px;
 
@@ -37,9 +48,5 @@ footer {
     text-align: center;  
     margin: 0px;
     padding:0px;
-  }
-
-  li {
-    display: inline;
   }
 }
