@@ -17,12 +17,14 @@ h1, h2 {
 }
 
 h3 {
-  color: #2079c7;
+  color: #007bff;
 }
 
 p { 
   color: #666666;
   font-size: 1em;
+  text-align: justify;
+  line-height: 1.4rem;
 }
 
 hr {
@@ -33,6 +35,59 @@ hr {
 
 li {
   display: inline;
+}
+
+.top-nav {
+  overflow: hidden;
+  margin: 5px;
+  margin-top: 1rem;
+
+  a {
+    font-size: 1.2em;
+  }
+
+  ul {
+    margin-top: 5.4rem;
+    margin-right: 6.3rem; 
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  li {
+    padding-right: 1rem; 
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 2.3em;
+    margin-bottom: 0.3rem;
+  }
+
+  h3 {
+    margin-top: 5px;
+    font-size: 1.7em;
+  }
+
+  a:before {
+    content: "";
+    position: absolute;
+    background-color: #1155cc;
+    display: block;
+    width: 105%;
+    height: 2px;
+    bottom: -10px;
+    left: 0px;
+    //text-decoration: underline;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;  
+  }
+
+  a:hover::before {
+    transform: scaleX(1);
+  }
 }
 
 a {
@@ -47,6 +102,18 @@ a:hover {
 }
 
 
+footer {
+  overflow: hidden;
+  display:flex;
+  margin: 5px;
+
+  ul {
+    width: 100%;
+    text-align: center;  
+    margin: 0px;
+    padding:0px;
+  }
+}
 // Include styles for other sections as needed
 // @import 'scss/about';
 // @import 'scss/projects';
