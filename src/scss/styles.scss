@@ -20,7 +20,7 @@ h3 {
   color: #007bff;
 }
 
-p { 
+p {
   color: #666666;
   font-size: 1em;
   text-align: justify;
@@ -48,7 +48,7 @@ li {
 
   ul {
     margin-top: 5.4rem;
-    margin-right: 6.3rem; 
+    margin-right: 6.3rem;
     list-style-type: none;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,7 @@ li {
   }
 
   li {
-    padding-right: 1rem; 
+    padding-right: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -82,7 +82,7 @@ li {
     left: 0px;
     //text-decoration: underline;
     transform: scaleX(0);
-    transition: transform 0.5s ease;  
+    transition: transform 0.5s ease;
   }
 
   a:hover::before {
@@ -93,7 +93,6 @@ li {
 a {
   position: relative;
   color:#007bff;
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -133,17 +132,17 @@ a:hover {
   color: #FFF;
   background-color: #007bff;
   border: 2px solid #007bff;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
-// 
+//
 footer {
   overflow: hidden;
   display:flex;
   margin: 5px;
   ul {
     width: 100%;
-    text-align: center;  
+    text-align: center;
     margin: 0px;
     padding:0px;
   }
