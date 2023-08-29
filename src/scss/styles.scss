@@ -118,20 +118,21 @@ a:hover {
 .btn {
   display: inline-block;
   text-align: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
   padding: .375rem .75rem;
   border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .btn-primary {
   color: #FFF;
   background-color: #007bff;
   border: 2px solid #007bff;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
   font-weight: 700; 
 }
 
