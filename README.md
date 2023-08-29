@@ -1,4 +1,4 @@
-# Portfolio ⚡️
+# Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/tiboitel/portfolio)] ![GitHub Repo stars](https://img.shields.io/github/stars/tiboitel/portfolio) ![GitHub forks](https://img.shields.io/github/forks/tiboitel/portfolio) 
 
 ## A minimal portfolio showcasing my work as a developer!
 
@@ -35,7 +35,6 @@ node@v18.0.0 or higher
 npm@7.18.1 or higher
 git@2.30.1 or higher
 gulp@4.0.1 or higher
-php@7.1 or higher (or any other http server)
 ```
 
 ## How To Use 🔧
@@ -79,7 +78,7 @@ Using PHP built-in HTTP server:
 $ gulp
 
 # Run HTTP Server.
-$ php -S localhost:1234
+$ php -S localhost:1234 # OR any other HTTP Server.
 ```
 
 4. Once the server starts, go to `http://localhost:1234/` in your browser to see your portfolio locally.
@@ -112,11 +111,11 @@ To deploy my portfolio online, I recommend using [Netlify](https://netlify.com) 
 
 ## Technologies Used 🛠️
 
+- [Typescript](https://www.typescriptlang.org/) - Typed superset of JavaScript
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
 - [Gulp](https://gulpjs.com/) - Task runner for web development
 
 ## Acknowledgments 🎁
-
 
 
 ## License 📄
