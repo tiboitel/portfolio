@@ -101,12 +101,45 @@ a:hover {
   color:#1155cc;
 }
 
+// Form
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+}
+
+.btn-primary {
+  color: #FFF;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700; 
+}
+
+// 
 footer {
   overflow: hidden;
   display:flex;
   margin: 5px;
-
   ul {
     width: 100%;
     text-align: center;  
@@ -114,7 +147,3 @@ footer {
     padding:0px;
   }
 }
-// Include styles for other sections as needed
-// @import 'scss/about';
-// @import 'scss/projects';
-// @import 'scss/contact';

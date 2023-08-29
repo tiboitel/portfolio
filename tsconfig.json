@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    lib: ["es2022", "dom"],
+    "lib": ["es2022", "dom"],
     "target": "es2022",
     "module": "es2022", // Use ESNext for modern ES features
     "moduleResolution": "node",
