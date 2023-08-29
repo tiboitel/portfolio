@@ -12,7 +12,7 @@
 ⚡️ Minimalist UI Design \
 ⚡️ One Page Layout\
 ⚡️ Styled with Custom SCSS\
-⚡️ Valid HTML5 & CSS3\
+⚡️ Valid HTML5 & CSS3
 
 ---
 
@@ -34,6 +34,7 @@ I need to have [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/do
 node@v18.0.0 or higher
 npm@7.18.1 or higher
 git@2.30.1 or higher
+gulp@4.0.1 or higher
 php@7.1 or higher (or any other http server)
 ```
 
@@ -112,6 +113,7 @@ To deploy my portfolio online, I recommend using [Netlify](https://netlify.com) 
 ## Technologies Used 🛠️
 
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
+- [Gulp](https://gulpjs.com/) - Task runner for web development
 
 ## Acknowledgments 🎁
 
