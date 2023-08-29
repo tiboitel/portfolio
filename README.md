@@ -61,6 +61,9 @@ Using NPM:
 # Update dependencies
 $ npm audit fix
 
+# Install Gulp
+$ npm install --global gulp
+
 # Install dependencies
 $ npm install
 ```
@@ -71,6 +74,10 @@ $ npm install
 Using PHP built-in HTTP server:
 
 ```bash
+# Build typescript and sass.
+$ gulp
+
+# Run HTTP Server.
 $ php -S localhost:1234
 ```
 
