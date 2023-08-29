@@ -3,7 +3,7 @@
 ## A minimal portfolio showcasing my work as a developer!
 
 <h2 align="center">
-  <img src="./exemple/portfolio-exemple.gif alt="My Portfolio" width="600px" />
+  <img src="./exemple/portfolio-exemple.gif" alt="My Portfolio" width="600px" />
   <br>
 </h2>
 
