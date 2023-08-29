@@ -1,4 +1,4 @@
-# Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/tiboitel/portfolio)] ![GitHub Repo stars](https://img.shields.io/github/stars/tiboitel/portfolio) ![GitHub forks](https://img.shields.io/github/forks/tiboitel/portfolio) 
+# Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/tiboitel/portfolio)](https://github.com/tiboitel/portfolio/blob/main/LICENSE) ![GitHub Repo stars](https://img.shields.io/github/stars/tiboitel/portfolio) ![GitHub forks](https://img.shields.io/github/forks/tiboitel/portfolio) 
 
 ## A minimal portfolio showcasing my work as a developer!
 
