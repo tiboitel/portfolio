@@ -23,9 +23,21 @@ section {
     margin-left: 2rem;
   }
 }
-#about {  
+
+#about {
   visibility: hidden;
   display: none;
+}
+
+#projects {
+	.location {
+		font-weight: normal;
+	}
+
+	.company {
+		font-weight: normal;
+		font-style: italic;
+	}
 }
 
 #contact {
