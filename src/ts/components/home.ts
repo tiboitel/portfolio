@@ -6,7 +6,7 @@ class HomeComponent {
     }
 
     private setSectionVisible(sectionName: string, isVisible: boolean): void {
-        const section = document.getElementById(sectionName);
+        const section = document.getElementById(sectionName) as HTMLElement;
     
         if (section !== null) {
             if (isVisible) {
@@ -35,12 +35,6 @@ class HomeComponent {
     private onNavigationLinkClicked(sectionName :string) {
         const sections = ['about', 'projects', 'contact'];
 
-        sections.forEach((value) => {
-            if (value == sectionName) {
-                this.setSectionVisible(value, true);
-            } else {
-                this.setSectionVisible(value, false);
-            }
-        });
+        sections.forEach(value => this.setSectionVisible(value, value === sectionName));
     }
 }

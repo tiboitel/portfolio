@@ -12,6 +12,7 @@ function welcome() {
 
 function main() {
     const homeComponent = new HomeComponent();
+    
     welcome();
 }
 

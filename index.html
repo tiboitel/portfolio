@@ -40,6 +40,11 @@
         </nav>
         <hr>
         <section id="about">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2">
+                    <h3>WELCOME</h3>
+                </div>
+            </div>
         </section>
         <section id="projects">
             <div class="row">
@@ -88,21 +93,40 @@
         </section>
         <section id="contact">
             <div class="row">
-                <div class="col-md-6 col-md-offset-1">
-                    <h2>Looking for my resume ?</h2>
-                    <p>
-                        <a href="#">Get it here !</a>
-                    </p>
+                <div class="col-md-5 col-md-offset-2">
+                    <h3>CONTACT</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-md-offset-1">
-                    <h2>Want to contact me ?</h2>
+                <div class="col-md-6 col-md-offset-3">
+                    <h4>Want to reach me ?</h4>
                     <p>
-                        
+                        Get in touch or shoot me an email directly on <a href="mailto:tiboitel@student.42.fr">tiboitel@student.42.fr</a>
                     </p>
                 </div>
             </div>
+            <form method="POST" action="#">
+                <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <input type="text" name="name" id="name" placeholder="Name" aria-required="true" required="">
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <input type="text" name="email" id="email" placeholder="E-mail" aria-required="true" required="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <textarea name="message" id="message" rows="5" class="form-control" placeholder="Message" aria-required="true" required=""></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <button class="btn btn-default" type="submit" aria-label="Send Message">Send Message</button>
+                    </div>
+                </div>
+            </form>
         </section>
         <hr>
         <footer>
