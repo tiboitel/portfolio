@@ -2,12 +2,14 @@
 
 class HomeComponent {
     constructor() {
+		this.setSectionVisible('contact', false);
+		this.setSectionVisible('projects', false);
         this.setNavigationLinksCallbacks();
     }
 
     private setSectionVisible(sectionName: string, isVisible: boolean): void {
         const section = document.getElementById(sectionName) as HTMLElement;
-    
+
         if (section !== null) {
             if (isVisible) {
                 section.style.visibility = 'visible';
