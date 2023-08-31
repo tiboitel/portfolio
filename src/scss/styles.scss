@@ -2,6 +2,7 @@
 @use 'vendor/normalize' as *;
 @use 'vendor/flexbox' as *;
 @use 'partials/home';
+@use 'partials/icons';
 
 // Include libraries here
 @include normalize;
@@ -41,9 +42,11 @@ li {
   overflow: hidden;
   margin: 5px;
   margin-top: 1rem;
+  border-bottom: 1px solid #dbcbcb;
 
   a {
     font-size: 1.2em;
+	text-rendering: geometricprecision;
   }
 
   ul {
@@ -137,13 +140,26 @@ a:hover {
 
 //
 footer {
-  overflow: hidden;
-  display:flex;
-  margin: 5px;
-  ul {
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-    padding:0px;
-  }
+	overflow: hidden;
+	display: block;
+	margin: 5px;
+	border-top: 1px solid #dbcbcb;
+	margin-top: 2.5rem;
+
+	ul {
+		width: 100%;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		margin-top: .75rem;
+		margin-bottom: .75rem;
+	}
+
+	.icon {
+		padding: .20rem;
+	}
+
+	li:not(:first-child) {
+		margin-left: 1rem;
+	}
 }

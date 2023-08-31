@@ -24,11 +24,11 @@
 
 ## Getting Started 🚀
 
-These instructions will guide me to set up and run a copy of the project on my local machine for development and testing purposes. Detailed notes on deployment can be found below.
+These instructions will guide you to set up and run a copy of the project on your local machine for development and testing purposes. Detailed notes on deployment can be found below.
 
 ### Prerequisites 📋
 
-I need to have [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on my computer.
+You need to have [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
 ```
 node@v18.0.0 or higher
@@ -75,7 +75,7 @@ Using PHP built-in HTTP server:
 
 ```bash
 # Build typescript and sass.
-$ gulp
+$ gulp build
 
 # Run HTTP Server.
 $ php -S localhost:1234 # OR any other HTTP Server.

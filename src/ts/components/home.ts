@@ -13,7 +13,7 @@ class HomeComponent {
         if (section !== null) {
             if (isVisible) {
                 section.style.visibility = 'visible';
-                section.style.display = 'initial';
+                section.style.display = 'block';
             } else {
                 section.style.visibility = 'hidden';
                 section.style.display = 'none';

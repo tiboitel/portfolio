@@ -1,0 +1,23 @@
+.icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center; // Adjust icon position as needed
+	background-size: cover;
+	text-decoration: none; // Remove underline
+	fill: #007bff;
+	width: 16px;
+	height: 16px;
+	color: #007bff;
+}
+
+.icon-github {
+	background-image: url('../images/icons/github.svg');
+}
+
+.icon-codingame {
+ 	background-image: url('../images/icons/codingame.svg');
+}
+
+.icon-linkedin {
+ 	background-image: url('../images/icons/linkedin.svg');
+}
