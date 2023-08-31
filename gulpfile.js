@@ -30,7 +30,7 @@ gulp.task('typescript', () => {
 
 // Optimize images
 gulp.task('imagemin', () => {
-    return gulp.src('images/*')
+    return gulp.src('images/**')
         .pipe(imagemin())
         .pipe(gulp.dest('dist/images'));
 });
@@ -44,3 +44,6 @@ gulp.task('watch', () => {
 
 // Default task
 gulp.task('default', gulp.parallel('sass', 'typescript', 'imagemin', 'watch'));
+
+// Build task
+gulp.task('build', gulp.parallel('sass', 'typescript', 'imagemin'));
