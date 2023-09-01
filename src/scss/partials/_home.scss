@@ -25,6 +25,30 @@ section {
 }
 
 #about {
+	ul {
+	}
+
+	li:before {
+	  content: " ";
+	  background: #fff;
+	  display: inline-block;
+	  position: relative;
+	  border-radius: 50%;
+	  border: 2px solid #007bff;
+	  left: -10px;
+	  width: 12px;
+	  height: 12px;
+	  margin-top: 7px;
+	  z-index: 400;
+	}
+
+	ul {
+		box-sizing:content-box;
+		margin-top: 2.3rem;
+		margin-left: 2rem;
+		border-left: 1px solid #007bff;
+		padding-left: 0px;
+	}
 }
 
 #projects {
@@ -40,5 +64,5 @@ section {
 
 #contact {
 	// margin-bottom: 13rem;
-	min-height: 44rem;
+	min-height: 71.5vh;
 }
