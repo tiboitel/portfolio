@@ -24,14 +24,18 @@ class HomeComponent {
     private setNavigationLinksCallbacks() {
         const aboutLink = document.querySelector('a[data-id="link-about"]');
         const projectsLink = document.querySelector('a[data-id="link-projects"]');
-        const contact = document.querySelector('a[data-id="link-contact"]');
+        const contactLink = document.querySelector('a[data-id="link-contact"]');
+        const contactButton = document.querySelector('a[data-id="button-contact"]');
+
 
         if (aboutLink)
             aboutLink.addEventListener('click', () => this.onNavigationLinkClicked('about'));
         if (projectsLink)
             projectsLink.addEventListener('click', () => this.onNavigationLinkClicked('projects'));
-        if (contact)
-            contact.addEventListener('click', () => this.onNavigationLinkClicked('contact'));
+        if (contactLink)
+            contactLink.addEventListener('click', () => this.onNavigationLinkClicked('contact'));
+        if (contactButton)
+            contactButton.addEventListener('click', () => this.onNavigationLinkClicked('contact'));
     }
 
     private onNavigationLinkClicked(sectionName :string) {
