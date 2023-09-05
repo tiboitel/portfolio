@@ -25,8 +25,6 @@ section {
 }
 
 #about {
-	ul {
-	}
 
 	li:before {
 	  content: " ";
@@ -49,6 +47,10 @@ section {
 		border-left: 1px solid #007bff;
 		padding-left: 0px;
 	}
+
+	.button {
+		margin-top: 1em;
+	}
 }
 
 #projects {
@@ -65,4 +67,9 @@ section {
 #contact {
 	// margin-bottom: 13rem;
 	min-height: 71.5vh;
+
+	.submit-row {
+		text-align: center;
+		margin-top: 1em;
+	}
 }

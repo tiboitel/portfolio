@@ -111,12 +111,15 @@ To deploy my portfolio online, I recommend using [Netlify](https://netlify.com) 
 
 ## Technologies Used 🛠️
 
-- [Typescript](https://www.typescriptlang.org/) - Typed superset of JavaScript
-- [Sass](https://sass-lang.com/documentation) - CSS extension language
-- [Gulp](https://gulpjs.com/) - Task runner for web development
+- [Typescript](https://www.typescriptlang.org/) - Typed superset of JavaScript.
+- [Sass](https://sass-lang.com/documentation) - CSS extension language.
+- [Gulp](https://gulpjs.com/) - Task runner for web development.
 
 ## Acknowledgments 🎁
 
+- [Flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid) - Grid system based on CSS3 flexbox.
+- [Normalize-SCSS](https://github.com/JohnAlbin/normalize-scss/) - Collection of HTML element and attribute rulesets to normalize styles across all browsers.
+- [Formspree](https://formspree.io/) - Formspree is a form backend, API, and email service for HTML & JavaScript forms.
 
 ## License 📄
 
