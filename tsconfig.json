@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2022", // Set the target JavaScript version to ES6 or later
-    "module": "ES2022", // Use ES6 modules for browser compatibility
+    "target": "ES5", // Set the target JavaScript version to ES6 or later
+    "module": "NodeNext", // Use ES6 modules for browser compatibility
     "outDir": "./dist/js/", // Specify the output directory for compiled files
     "strict": true, // Enable strict type checking
     "esModuleInterop": true, // Enable esModuleInterop to work with ES modules
@@ -16,7 +16,7 @@
     "removeComments": true // Remove comments from the compiled code
   },
   "include": [
-    "./src/ts/**/*.ts"
+    "./src/ts/**/*.ts",
   ],
   "exclude": [
     "node_modules"

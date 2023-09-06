@@ -11,6 +11,7 @@
 body {
   font-family: 'Merriweather', Arial, Helvetica, sans-serif;
   background-color: #fff;
+  cursor: none;
 }
 
 h1, h2 {
@@ -40,77 +41,6 @@ li {
 
 input, textarea {
   color: #666666; 
-}
-
-.cursor {
-  pointer-events: none;
-  
-  &__ball {
-    position: fixed;
-    top: 0;
-    left: 0;
-    mix-blend-mode: multiply;
-    z-index: 1000;
-    
-    circle {
-      fill:#007bff;
-    }
-  }      
-} 
-
-.top-nav {
-  overflow: hidden;
-  margin: 5px;
-  margin-top: 1rem;
-  border-bottom: 1px solid #dbcbcb;
-
-  a {
-    font-size: 1.2em;
-	text-rendering: geometricprecision;
-  }
-
-  ul {
-    margin-top: 5.4rem;
-    // margin-right: 6.3rem;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    width: 100%;
-  }
-
-  li {
-    padding-right: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  h2 {
-    font-size: 2.3em;
-    margin-bottom: 0.3rem;
-  }
-
-  h3 {
-    margin-top: 5px;
-    font-size: 1.7em;
-  }
-
-  a:before {
-    content: "";
-    position: absolute;
-    background-color: #1155cc;
-    display: block;
-    width: 105%;
-    height: 2px;
-    bottom: -10px;
-    left: 0px;
-    //text-decoration: underline;
-    transform: scaleX(0);
-    transition: transform 0.5s ease;
-  }
-
-  a:hover::before {
-    transform: scaleX(1);
-  }
 }
 
 a {
@@ -162,6 +92,79 @@ a:hover {
   background-color: #1155cc;
   color: #fff;
   border: 2px solid #1155cc;
+}
+
+
+#cursor {
+  // opacity: 50%;
+  pointer-events: none;
+  border:1px solid #ff8400;
+  background-color: #ff8400;
+  height: 16px;
+  width: 16px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  position: absolute;
+  z-index: 1000;
+  transition: transform .2s;
+  transform: translate(-50%, -50%);
+  mix-blend-mode:exclusion;
+}
+
+.top-nav {
+  overflow: hidden;
+  margin: 5px;
+  margin-top: 1rem;
+  border-bottom: 1px solid #dbcbcb;
+
+  a {
+    font-size: 1.2em;
+	  text-rendering: geometricprecision;
+  }
+
+  ul {
+    margin-top: 5.4rem;
+    // margin-right: 6.3rem;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  li {
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 2.3em;
+    margin-bottom: 0.3rem;
+  }
+
+  h3 {
+    margin-top: 5px;
+    font-size: 1.7em;
+  }
+
+  a:before {
+    content: "";
+    position: absolute;
+    background-color: #1155cc;
+    display: block;
+    width: 105%;
+    height: 2px;
+    bottom: -10px;
+    left: 0px;
+    //text-decoration: underline;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+
+  a:hover::before {
+    transform: scaleX(1);
+  }
 }
 
 //

@@ -14,7 +14,7 @@ function welcome() {
 
 function main() {
     const homeComponent = new HomeComponent();
-    // const cursorComponent = new CursorComponent();
+    const cursorComponent = new CursorComponent();
     
     welcome();
 }
