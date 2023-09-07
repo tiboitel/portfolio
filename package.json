@@ -28,14 +28,14 @@
     "gulp-imagemin": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-typescript": "^2.12.2",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "typescript": "^5.2.2"
   },
   "overrides": {
     "graceful-fs": "^4.2.11"
   },
   "dependencies": {
     "gulp-cli": "^2.3.0",
-    "normalize-scss": "^7.0.1",
-    "typescript": "^5.1.6"
+    "normalize-scss": "^7.0.1"
   }
 }

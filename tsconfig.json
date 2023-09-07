@@ -1,25 +1,22 @@
 {
   "compilerOptions": {
-    "lib": ["es2022", "dom"],
-    "target": "es2022",
-    "module": "es2022", // Use ESNext for modern ES features
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": false,
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "outDir": "./dist/js",
-    "rootDir": "./src/ts",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "sourceMap": true
+    "target": "ES5", // Set the target JavaScript version to ES6 or later
+    "module": "NodeNext", // Use ES6 modules for browser compatibility
+    "outDir": "./dist/js/", // Specify the output directory for compiled files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Enable esModuleInterop to work with ES modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
+    "lib": ["ES6", "DOM"], // Include necessary libraries for the browser (e.g., DOM)
+    "noImplicitAny": true, // Disallow implicit 'any' types
+    "noImplicitThis": true, // Disallow using 'this' with an implicit any type
+    "noImplicitReturns": true, // Report error on functions without a return statement
+    "noUnusedLocals": true, // Report error on unused local variables
+    "noUnusedParameters": true, // Report error on unused parameters
+    "removeComments": true // Remove comments from the compiled code
   },
   "include": [
-    "./src/ts/**/*.ts"
+    "./src/ts/**/*.ts",
   ],
   "exclude": [
     "node_modules"
