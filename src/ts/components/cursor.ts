@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 class CursorComponent {
     private cursor: HTMLElement | null;
@@ -45,7 +45,6 @@ class CursorComponent {
 
     private onMouseLeaveEventCallback(event:MouseEvent) {
         this.cursor = document.getElementById('cursor') as HTMLElement;
-
 
         this.cursor.style.setProperty('transform', 'scale(1)');
     }

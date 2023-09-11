@@ -3,6 +3,7 @@
 @use 'vendor/flexbox' as *;
 @use 'partials/home';
 @use 'partials/icons';
+@use 'partials/mobile';
 
 // Include libraries here
 @include normalize;
@@ -96,7 +97,6 @@ a:hover {
 
 
 #cursor {
-  // opacity: 50%;
   pointer-events: none;
   border:1px solid #ff8400;
   background-color: #ff8400;
