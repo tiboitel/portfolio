@@ -1,0 +1,21 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .top-nav h2 {
+        font-size: 2rem !important;
+    }
+
+    .top-nav h3 { 
+        font-size: 1.5rem !important;
+    }
+
+    .top-nav ul {
+       margin-top: 1rem !important; 
+       border-top: 1px solid #dbcbcb;
+    }
+
+    .top-nav li {
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

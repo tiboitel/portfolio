@@ -5,6 +5,7 @@
     "outDir": "./dist/js/", // Specify the output directory for compiled files
     "strict": true, // Enable strict type checking
     "esModuleInterop": true, // Enable esModuleInterop to work with ES modules
+    "strictNullChecks": true,
     "skipLibCheck": true, // Skip type checking of declaration files
     "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
     "lib": ["ES6", "DOM"], // Include necessary libraries for the browser (e.g., DOM)

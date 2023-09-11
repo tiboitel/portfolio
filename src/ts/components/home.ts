@@ -1,46 +1,46 @@
-"use strict"
+"use strict";
 
 class HomeComponent {
     constructor() {
-		this.setSectionVisible('contact', false);
-		this.setSectionVisible('projects', false);
+        this.initializeSections();
         this.setNavigationLinksCallbacks();
     }
 
+    private initializeSections(): void {
+        const sections = ['contact', 'projects', 'about'];
+
+        sections.forEach((sectionName) => this.setSectionVisible(sectionName, false));
+        this.setSectionVisible('about', true);
+    }
+
     private setSectionVisible(sectionName: string, isVisible: boolean): void {
-        const section = document.getElementById(sectionName) as HTMLElement;
+        const section = document.getElementById(sectionName);
 
         if (section !== null) {
-            if (isVisible) {
-                section.style.visibility = 'visible';
-                section.style.display = 'block';
-            } else {
-                section.style.visibility = 'hidden';
-                section.style.display = 'none';
-            }
+            section.hidden = !isVisible;
         }
     }
 
     private setNavigationLinksCallbacks() {
-        const aboutLink = document.querySelector('a[data-id="link-about"]');
-        const projectsLink = document.querySelector('a[data-id="link-projects"]');
-        const contactLink = document.querySelector('a[data-id="link-contact"]');
-        const contactButton = document.querySelector('a[data-id="button-contact"]');
+        const links = {
+            'link-about': 'about',
+            'link-projects': 'projects',
+            'link-contact': 'contact',
+            'button-contact': 'contact'
+        };
 
-
-        if (aboutLink)
-            aboutLink.addEventListener('click', () => this.onNavigationLinkClicked('about'));
-        if (projectsLink)
-            projectsLink.addEventListener('click', () => this.onNavigationLinkClicked('projects'));
-        if (contactLink)
-            contactLink.addEventListener('click', () => this.onNavigationLinkClicked('contact'));
-        if (contactButton)
-            contactButton.addEventListener('click', () => this.onNavigationLinkClicked('contact'));
+        for (const [linkId, sectionName] of Object.entries(links)) {
+            const linkElement = document.querySelector(`a[data-id="${linkId}"]`);
+            
+            if (linkElement) {
+                linkElement.addEventListener('click', () => this.onNavigationLinkClicked(sectionName));
+            }
+        }
     }
 
-    private onNavigationLinkClicked(sectionName :string) {
-        const sections = ['about', 'projects', 'contact'];
+    private onNavigationLinkClicked(sectionName: string) {
+        const sections = ['contact', 'projects', 'about'];
 
-        sections.forEach(value => this.setSectionVisible(value, value === sectionName));
+        sections.forEach((value) => this.setSectionVisible(value, value === sectionName));
     }
 }
