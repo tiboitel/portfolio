@@ -1,10 +1,10 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-    .top-nav h2 {
+    .top-nav h1 {
         font-size: 2rem !important;
     }
 
-    .top-nav h3 { 
+    .top-nav h2 { 
         font-size: 1.5rem !important;
     }
 
@@ -17,5 +17,11 @@
         display: block;
         text-align: center;
         margin-top: 2rem;
+    }
+
+    p {
+        text-align: justify !important;
+        text-justify:newspaper;
+        hyphens: auto;
     }
 }
