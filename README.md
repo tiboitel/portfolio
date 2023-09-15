@@ -107,7 +107,7 @@ $ php -S localhost:1234 # OR any other HTTP Server.
 
 ## Deployment 📦
 
-To deploy my portfolio online, I recommend using [Netlify](https://netlify.com) for its ease of use.
+To deploy my portfolio online, I recommend using [Netlify](https://netlify.com) for its ease of use but any hosting provider will do it.
 
 ## Technologies Used 🛠️
 
@@ -131,4 +131,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Status
 
-Coming Soon !
+Running at - [tiboitel.dev](https://www.tiboitel.dev)
